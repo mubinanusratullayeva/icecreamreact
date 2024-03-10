@@ -1,0 +1,27 @@
+@import '../../variables.scss';
+
+.heroNav{
+    background-color: $main-bgColour;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_menus {
+            display: flex;
+            column-gap: 40px;
+            &__menu{
+                padding: 40px 0;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                text-transform: capitalize;
+                letter-spacing: 0em;
+                color: $text-color;
+                &:hover{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}

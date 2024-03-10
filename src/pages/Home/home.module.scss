@@ -1,0 +1,91 @@
+@import '../../variables.scss';
+
+.hero {
+    min-height: 87vh;
+    background-color: $main-bgColour;
+    background-image: url(../../assets/heroimg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 880px;
+    &_box{
+        padding: 100px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        &__toptitle {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+            color: $text-color;
+        }
+        &__title {
+            width: 665px;
+            font-weight: 400;
+            font-size: 57.33px;
+            line-height: 69.08px;
+            color: $text-color;
+            span {
+                font-weight: 700;
+                font-size: 57.33px;
+                line-height: 69.08px;
+                color: $main-color;
+            }
+        }
+        &__desc {
+            padding: 30px 0;
+            width: 523px;
+            opacity: 0.6px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $text-color;
+        }
+    }
+}
+
+.hero + section {
+    padding: 60px 0;
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            cursor: pointer;
+        }
+    }
+}
+
+.oatmea{
+    // padding: 40px 0;
+    background-color: $main-bgColour;
+    .oatmea_disp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .oatmea_disp__cont{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            row-gap: 16px;
+            h2{
+                width: 349px;
+                line-height: 48.8px;
+                text-transform: capitalize;
+                font-size: 44.2px;
+                font-weight: 600;
+                color: $text-color;
+            }
+            p{
+                width: 442px;
+                opacity: 60%;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}

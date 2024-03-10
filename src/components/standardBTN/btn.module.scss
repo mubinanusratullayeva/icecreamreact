@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.standbt{
+    padding: 15px 20px;
+    width: 165px;
+    border-radius: 5px;
+    border: none;
+    background-color: $main-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: $any-color;
+    cursor: pointer;
+    transition: ease-in 0.1s;
+    &:hover {
+        background-color: $main-bgColour;
+        font-size: 19px;
+        border: 1px solid $main-color;
+    }
+}
