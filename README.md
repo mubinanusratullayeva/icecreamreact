@@ -1,3 +1,5 @@
+# Figma link: https://www.figma.com/design/jbeZ1lzf03zHC93wjid4vF/Ice_Cream_Landing_Page-(Copy)?node-id=0-1&t=7hlcWphttTyMirA0-0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
