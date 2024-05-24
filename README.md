@@ -1,4 +1,4 @@
-# Figma link: https://www.figma.com/design/jbeZ1lzf03zHC93wjid4vF/Ice_Cream_Landing_Page-(Copy)?node-id=0-1&t=7hlcWphttTyMirA0-0
+[figma url](https://www.figma.com/design/jbeZ1lzf03zHC93wjid4vF/Ice_Cream_Landing_Page-(Copy)?node-id=0-1&t=7hlcWphttTyMirA0-0).
 
 # Getting Started with Create React App
 
